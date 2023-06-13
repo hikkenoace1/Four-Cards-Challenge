@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+h1{
+    font-weight:600px;  
+    color :hsl(234, 12%, 34%);
+}
+#header{
+    font-weight:lighter;
+
+}
+h4{
+    margin-top:20px;
+}
+
+h4,p{
+    color:hsl(229, 6%, 66%) ;
+    font-weight:lighter;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:1200px;
+    height:800px;
+    
+}
+h1,h4{
+    text-align: center;
+}
+
+.card-one,.card-two,.card-three,.card-four{
+    border-radius: 15px;
+    width:400px;
+    height:250px;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2)  ;
+   
+    
+
+}
+.centered-cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap:30px;
+    position: relative;
+    top:50px;
+
+}
+.side-cards{
+    display:flex;
+    flex-direction: row;
+    column-gap: 450px;
+    position: relative;
+    bottom:350px;
+}
+.card-one{
+    border-top:5px solid hsl(180, 62%, 55%);
+
+    
+
+}
+.card-two{
+   border-top:5px solid hsl(0, 78%, 62%);
+
+}
+.card-three{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    
+
+}
+.card-four{
+    border-top: 5px solid hsl(34, 97%, 64%);                  
+   
+}
+h2{
+    position: relative;
+    top:20px;
+    left:30px;
+    font-weight:600px;
+    color:hsl(234, 12%, 34%);       
+}
+p{
+    position: relative;
+    left:30px;
+    top:40px;
+    padding-right:50px;
+    
+}
+img{
+    position: relative;
+    left:280px;
+    top:75px;
+
+}  
+
+@media screen and (min-width:375){
+    .container{
+        display:flex;
+        flex-wrap:wrap;
+
+    }
+}
